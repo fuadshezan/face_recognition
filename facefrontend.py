@@ -36,7 +36,7 @@ def face_extractor(img):
     return cropped_face
 
 # Doing some Face Recognition with the webcam
-video_capture = cv2.VideoCapture(1)
+video_capture = cv2.VideoCapture(0)
 folders = glob('Datasets/Train/*')
 l=[]
 for row in folders:
